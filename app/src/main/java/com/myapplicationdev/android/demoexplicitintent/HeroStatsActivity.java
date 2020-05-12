@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+
 public class HeroStatsActivity extends AppCompatActivity {
 
     TextView tvName, tvStrenth, tvTechnicalProwess;
@@ -24,7 +25,7 @@ public class HeroStatsActivity extends AppCompatActivity {
         //Get the Hero object first activity put in Intent
         Hero hero = (Hero) i.getSerializableExtra("hero");
 
-        tvName = (TextView) findViewById(R.id.textViewName);
+        tvName = (TextView) findViewById(R.id.textViewName );
         tvStrenth = (TextView) findViewById(R.id.textViewStrength);
         tvTechnicalProwess = (TextView) findViewById(R.id.textViewTechnicalProwess);
         btnLike = findViewById(R.id.buttonLike);

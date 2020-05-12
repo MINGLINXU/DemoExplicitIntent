@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
                 //Start activity with requestCodeForSupermanStats to
                 //identify it was started by clicking on Superman
                 startActivityForResult(i, requestCodeForSupermanStats);
+
+
             }
         });
 
